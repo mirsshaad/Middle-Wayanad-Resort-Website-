@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Optimization -->
+    <title>Middle Wayanad Holyday Inn | Premium 2BHK Resort Apartments & pool</title>
+    <meta name="description" content="Experience nature's beauty at Middle Wayanad Holyday Inn. Premium 2BHK serviced apartments with shared pool, valley views, free Wi-Fi, and amenities in Kambalakkad, Wayanad." />
+    <meta name="keywords" content="Wayanad resort, Middle Wayanad Holyday Inn, serviced apartments Wayanad, 2BHK Wayanad, luxury stay Wayanad, booking Wayanad, Kambalakkad hotel, Wayanad pool villa" />
+    <meta name="author" content="Middle Wayanad Holyday Inn" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Middle Wayanad Holyday Inn | Premium 2BHK Resort Apartments" />
+    <meta property="og:description" content="Nestled in Kambalakkad, Wayanad, enjoy a luxury stay with 2BHK apartments, swimming pool, valley view rooms, and premium amenities." />
+    <meta property="og:image" content="/hero_resort.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Global Error Overlay for Debugging -->
+    <script>
+      window.addEventListener('error', function(event) {
+        var errorDiv = document.createElement('div');
+        errorDiv.style.position = 'fixed';
+        errorDiv.style.top = '0';
+        errorDiv.style.left = '0';
+        errorDiv.style.width = '100%';
+        errorDiv.style.background = '#7f1d1d';
+        errorDiv.style.color = '#fecaca';
+        errorDiv.style.padding = '20px';
+        errorDiv.style.zIndex = '99999';
+        errorDiv.style.fontFamily = 'monospace';
+        errorDiv.style.whiteSpace = 'pre-wrap';
+        errorDiv.style.overflow = 'auto';
+        errorDiv.style.maxHeight = '50vh';
+        errorDiv.innerHTML = '<strong>Client Error:</strong> ' + event.message + '\nat ' + event.filename + ':' + event.lineno + ':' + event.colno + '\n\n' + (event.error ? event.error.stack : '');
+        document.body.appendChild(errorDiv);
+      });
+      window.addEventListener('unhandledrejection', function(event) {
+        var errorDiv = document.createElement('div');
+        errorDiv.style.position = 'fixed';
+        errorDiv.style.top = '0';
+        errorDiv.style.left = '0';
+        errorDiv.style.width = '100%';
+        errorDiv.style.background = '#7f1d1d';
+        errorDiv.style.color = '#fecaca';
+        errorDiv.style.padding = '20px';
+        errorDiv.style.zIndex = '99999';
+        errorDiv.style.fontFamily = 'monospace';
+        errorDiv.style.whiteSpace = 'pre-wrap';
+        errorDiv.style.overflow = 'auto';
+        errorDiv.style.maxHeight = '50vh';
+        errorDiv.innerHTML = '<strong>Unhandled Rejection:</strong> ' + event.reason;
+        document.body.appendChild(errorDiv);
+      });
+    </script>
+    <div id="root"></div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
