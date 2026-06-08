@@ -1003,11 +1003,8 @@ Please confirm availability for my booking.`;
 
             {/* Bottom Row */}
             <div className="footer-bottom-row-new">
-              {/* Left licenses */}
-              <div className="footer-licenses">
-                <div className="footer-license-text">ICP LICENSE 17035714</div>
-                <div className="footer-license-text">GONGAN BEIAN: 31010102004896</div>
-              </div>
+              {/* Left placeholder for alignment */}
+              <div className="footer-licenses"></div>
 
               {/* Center Monogram (Calligraphic cursive "MW" shape) */}
               <div className="footer-monogram-container">
